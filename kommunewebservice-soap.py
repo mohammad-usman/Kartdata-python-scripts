@@ -5,6 +5,14 @@ from zeep import Client
 from zeep.transports import Transport
 from zeep.helpers import serialize_object
 
+'''
+Et enkelt script for å gjøre kall mot Kartverkets Kommunewebservice
+Se full dokumentasjon på https://www.nd.matrikkel.no/innsynapi_v3/docs/index.html
+
+NB: krever medlemskap i Norge digitalt og avtale om innsyn i matrikkelen
+
+'''
+
 import getpass
 
 def get_user_and_password():
