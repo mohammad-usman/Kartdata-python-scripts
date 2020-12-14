@@ -11,6 +11,10 @@ Se full dokumentasjon på https://www.nd.matrikkel.no/innsynapi_v3/docs/index.ht
 
 NB: krever medlemskap i Norge digitalt og avtale om innsyn i matrikkelen
 
+avhengigheter: 
+   python bibliotek zeep, requests
+   bruk f.eks > pip install zeep  
+   
 '''
 
 import getpass
